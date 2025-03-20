@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/victorzanata/battleship/internal/game"
 
 func main() {
-	fmt.Println("Battleship game started!")
+	game.Play()
 }
